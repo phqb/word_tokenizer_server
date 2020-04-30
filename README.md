@@ -1,6 +1,6 @@
 # Word Tokenizer Server
 
-This web application tokenizers Vietnamese text using [VnCoreNLP](https://github.com/vncorenlp/VnCoreNLP) library.
+This web application tokenizes Vietnamese text using [VnCoreNLP](https://github.com/vncorenlp/VnCoreNLP) library.
 
 ## Setup
 
