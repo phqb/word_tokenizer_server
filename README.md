@@ -4,7 +4,7 @@ This web application tokenizes Vietnamese text using [VnCoreNLP](https://github.
 
 ## Setup
 
-1. Copy [VnCoreNLP models](https://github.com/vncorenlp/VnCoreNLP/tree/master/models) to `<tomcat location>/bin`.
+1. Copy [VnCoreNLP models](https://github.com/vncorenlp/VnCoreNLP/tree/master/models) (including `models/`) to `<tomcat location>/bin`.
 2. Copy `VnCoreNLP-1.1.1.jar` to `<tomcat location>/lib`.
 3. Run the web application.
 
