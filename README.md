@@ -21,4 +21,30 @@ const requestOptions = {
 fetch("http://localhost:8080/<context>/word_tokenizer", requestOptions)
   .then(response => response.text())
   .then(result => console.log(result));
+  
+/* result
+[
+    "Ông",
+    "Nguyễn_Khắc_Chúc",
+    "đang",
+    "làm_việc",
+    "tại",
+    "Đại_học",
+    "Quốc_gia",
+    "Hà_Nội",
+    ".",
+    "Bà",
+    "Lan",
+    ",",
+    "vợ",
+    "ông",
+    "Chúc",
+    ",",
+    "cũng",
+    "làm_việc",
+    "tại",
+    "đây",
+    ".",
+]
+*/
 ```
